@@ -1,0 +1,12 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "description": "Test cases for LeetCode solutions",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Eremeev Eugene",
+  "license": "MIT",
+  "devDependencies": {}
+}
