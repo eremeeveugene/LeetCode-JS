@@ -8,11 +8,15 @@ Welcome to my collection of LeetCode solutions, all written in JavaScript. Each 
 
 The primary goal of this repository is to improve my own skills and demonstrate my capabilities. I am focused on my growth and learning by providing efficient and well-tested solutions to a wide range of LeetCode problems.
 
+## Time and Space Complexity
+
+I analyze the time and space complexity using Big O notation for every solution. This analysis helps me understand each solution's efficiency and scalability.
+
 ## LeetCode Profile
 
 Check out my [LeetCode](https://leetcode.com/u/eremeeveugene/) profile to see more about my problem-solving journey.
 
-## Solutions
+## Solutions by Category
 
 Below are the LeetCode problems sorted by category. Click on the category names to explore the problems.
 
@@ -20,6 +24,7 @@ Below are the LeetCode problems sorted by category. Click on the category names 
   <summary><strong>JavaScript</strong></summary>
   <p>
     
+- [2620. Counter](https://leetcode.com/problems/counter/description/)
 - [2667. Create Hello World Function](https://leetcode.com/problems/create-hello-world-function/description/)
 
   </p>
