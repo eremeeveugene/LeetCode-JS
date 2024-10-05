@@ -11,6 +11,6 @@ describe("createHelloWorldFunction", () => {
     const actualResult = createHelloWorld();
 
     // Assert
-    expect(expectedResult).toBe(actualResult);
+    expect(actualResult).toBe(expectedResult);
   });
 });
