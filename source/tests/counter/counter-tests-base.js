@@ -6,19 +6,15 @@ function testCounterFunction(counterFunction) {
       [0, [0, 1, 2]],
     ])(
       "should return consecutive values starting from n=%i and incrementing with each call",
-      (n, expectedValues) => {
+      (n, expectedResult) => {
         // Arrange
         const counter = counterFunction(n);
 
         // Act
-        const actualValues = [];
-
-        expectedValues.forEach(() => {
-          actualValues.push(counter());
-        });
+        const actualResult = expectedResult.map(() => counter());
 
         // Assert
-        expect(expectedValues).toEqual(actualValues);
+        expect(actualResult).toEqual(expectedResult);
       }
     );
   });
