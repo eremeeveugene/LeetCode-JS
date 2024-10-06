@@ -25,6 +25,7 @@ Below are the LeetCode problems sorted by category. Click on the category names 
   <p>
     
 - [2620. Counter](https://leetcode.com/problems/counter/description/)
+- [2634. Filter Elements from Array](https://leetcode.com/problems/filter-elements-from-array/description/)
 - [2635. Apply Transform Over Each Element in Array](https://leetcode.com/problems/apply-transform-over-each-element-in-array/description/)
 - [2665. Counter II](https://leetcode.com/problems/counter-ii/description/)
 - [2667. Create Hello World Function](https://leetcode.com/problems/create-hello-world-function/description/)
