@@ -6,7 +6,7 @@
  * @return {number[]}
  */
 var filter = function (arr, fn) {
-  var result = [];
+  let result = [];
 
   for (let i = 0; i < arr.length; i++) {
     if (fn(arr[i], i)) {
