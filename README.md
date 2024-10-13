@@ -25,6 +25,7 @@ Below are the LeetCode problems sorted by category. Click on the category names 
   <p>
     
 - [2620. Counter](https://leetcode.com/problems/counter/description/)
+- [2623. Memoize](https://leetcode.com/problems/memoize/description/)
 - [2626. Array Reduce Transformation](https://leetcode.com/problems/array-reduce-transformation/description/)
 - [2629. Function Composition](https://leetcode.com/problems/function-composition/description/)
 - [2634. Filter Elements from Array](https://leetcode.com/problems/filter-elements-from-array/description/)
