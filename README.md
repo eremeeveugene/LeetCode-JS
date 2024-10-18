@@ -38,6 +38,7 @@ Below are the LeetCode problems sorted by category. Click on the category names 
 - [2704. To Be Or Not To Be](https://leetcode.com/problems/to-be-or-not-to-be/description/)
 - [2715. Timeout Cancellation](https://leetcode.com/problems/timeout-cancellation/description/)
 - [2723. Add Two Promises](https://leetcode.com/problems/add-two-promises/description/)
+- [2725. Interval Cancellation](https://leetcode.com/problems/interval-cancellation/description/)
 
   </p>
 </details>
