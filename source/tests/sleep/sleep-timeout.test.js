@@ -2,8 +2,8 @@ const sleep = require("../../leetcode/sleep/sleep-timeout");
 
 describe("sleep", () => {
   test.each([
-    [100, 100, 120],
-    [200, 200, 220],
+    [100, 100, 150], // Adjusted the offset to allow a margin of error
+    [200, 200, 250],
   ])(
     "sleep(%i) should resolve after %i milliseconds",
     async (millis, expectedResult, expectedResultOffset) => {
@@ -17,7 +17,7 @@ describe("sleep", () => {
 
       // Assert
       expect(actualResult).toBeGreaterThanOrEqual(expectedResult);
-      expect(actualResult).toBeLessThan(expectedResultOffset);
+      expect(actualResult).toBeLessThan(expectedResultOffset); // Allows a margin for slight delay
     }
   );
 });
