@@ -24,6 +24,7 @@ Below are the LeetCode problems sorted by category. Click on the category names 
   <summary><strong>JavaScript</strong></summary>
   <p>
     
+- [2619. Array Prototype Last](https://leetcode.com/problems/array-prototype-last/description/)
 - [2620. Counter](https://leetcode.com/problems/counter/description/)
 - [2621. Sleep](https://leetcode.com/problems/sleep/description/)
 - [2623. Memoize](https://leetcode.com/problems/memoize/description/)
