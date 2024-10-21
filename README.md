@@ -29,6 +29,7 @@ Below are the LeetCode problems sorted by category. Click on the category names 
 - [2623. Memoize](https://leetcode.com/problems/memoize/description/)
 - [2626. Array Reduce Transformation](https://leetcode.com/problems/array-reduce-transformation/description/)
 - [2629. Function Composition](https://leetcode.com/problems/function-composition/description/)
+- [2631. Group By](https://leetcode.com/problems/group-by/description/)
 - [2634. Filter Elements from Array](https://leetcode.com/problems/filter-elements-from-array/description/)
 - [2635. Apply Transform Over Each Element in Array](https://leetcode.com/problems/apply-transform-over-each-element-in-array/description/)
 - [2637. Promise Time Limit](https://leetcode.com/problems/promise-time-limit/description/)
