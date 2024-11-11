@@ -48,3 +48,12 @@ Below are the LeetCode problems sorted by category. Click on the category names 
 
   </p>
 </details>
+
+<details>
+  <summary><strong>Algorithms</strong></summary>
+  <p>
+    
+- [1768. Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/description/)
+
+  </p>
+</details>
