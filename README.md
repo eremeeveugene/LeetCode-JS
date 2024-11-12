@@ -53,6 +53,7 @@ Below are the LeetCode problems sorted by category. Click on the category names 
   <summary><strong>Algorithms</strong></summary>
   <p>
     
+- [389. Find the Difference](https://leetcode.com/problems/find-the-difference/description/)
 - [1768. Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/description/)
 
   </p>
