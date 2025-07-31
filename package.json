@@ -1,16 +1,10 @@
 {
-  "name": "leetcode-js",
-  "version": "1.0.0",
   "type": "module",
-  "description": "LeetCode challenges in JavaScript",
-  "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js"
   },
   "devDependencies": {
-    "@babel/core": "^7.25.7",
-    "@babel/preset-env": "^7.25.7",
-    "babel-jest": "^29.7.0",
-    "jest": "^29.7.0"
+    "jest": "^30.0.5",
+    "@jest/globals": "^30.0.5"
   }
 }

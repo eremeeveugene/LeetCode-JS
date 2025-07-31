@@ -1,4 +1,4 @@
-const findTheDifference = require("../../../leetcode/algorithms/find-the-difference/find-the-difference-map");
-const testFindTheDifference = require("./find-the-difference-tests-base");
+import findTheDifference from "@algorithms/find-the-difference/find-the-difference-map.js";
+import testFindTheDifference from "./find-the-difference-tests-base.js";
 
 testFindTheDifference(findTheDifference);
