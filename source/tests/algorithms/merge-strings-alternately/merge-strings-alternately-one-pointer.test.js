@@ -1,4 +1,4 @@
-const mergeAlternately = require("../../../leetcode/algorithms/merge-strings-alternately/merge-strings-alternately-one-pointer");
-const testMergeAlternately = require("./merge-strings-alternately-tests-base");
+import mergeAlternately from "@algorithms/merge-strings-alternately/merge-strings-alternately-one-pointer.js";
+import testMergeAlternately from "./merge-strings-alternately-tests-base.js";
 
 testMergeAlternately(mergeAlternately);

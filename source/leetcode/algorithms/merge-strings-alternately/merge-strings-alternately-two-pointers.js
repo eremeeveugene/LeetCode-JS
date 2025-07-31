@@ -1,4 +1,5 @@
 /**
+ * https://leetcode.com/problems/merge-strings-alternately/description/
  * Time complexity - O(n)
  * Space complexity - O(n + m)
  * @param {string} word1
@@ -28,4 +29,4 @@ var mergeAlternately = function (word1, word2) {
   return result.join("");
 };
 
-module.exports = mergeAlternately;
+export default mergeAlternately;

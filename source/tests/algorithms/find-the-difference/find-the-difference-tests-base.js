@@ -23,4 +23,4 @@ function testFindTheDifference(findTheDifference) {
   });
 }
 
-module.exports = testFindTheDifference;
+export default testFindTheDifference;

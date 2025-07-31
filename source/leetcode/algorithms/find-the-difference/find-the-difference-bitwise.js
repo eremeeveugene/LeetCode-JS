@@ -20,4 +20,4 @@ var findTheDifference = function (s, t) {
   return String.fromCharCode(result);
 };
 
-module.exports = findTheDifference;
+export default findTheDifference;
