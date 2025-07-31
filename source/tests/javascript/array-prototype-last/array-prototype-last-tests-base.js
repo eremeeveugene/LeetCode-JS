@@ -1,20 +1,22 @@
 function testLast(last) {
   describe("last", () => {
-    // Use test.each for multiple cases
     test.each([
-      [[null, {}, 3], 3], // Test with mixed array
-      [[], -1], // Test with empty array
-      [[1], 1], // Test with single-element array
-      [[false, true, false], false], // Test with boolean values
-      [["a", "b", "c"], "c"], // Test with string array
-      [[null], null], // Test with null value
-      [[{}, [], "last"], "last"], // Test with object, array, string
-    ])("should return %s for array %j", (arr, expected) => {
+      [[null, {}, 3], 3],
+      [[], -1],
+      [[1], 1],
+      [[false, true, false], false],
+      [["a", "b", "c"], "c"],
+      [[null], null],
+      [[{}, [], "last"], "last"],
+    ])("returns %s for array %j", (input, expected) => {
       // Arrange
-      const result = last.call(arr);
+      const array = input;
 
-      // Act & Assert
-      expected(result).toBe(expected);
+      // Act
+      const result = last.call(array);
+
+      // Assert
+      expect(result).toBe(expected);
     });
   });
 }

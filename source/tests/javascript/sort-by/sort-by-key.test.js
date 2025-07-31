@@ -1,4 +1,4 @@
-const sortBy = require("../../leetcode/sort-by/sort-by-key");
+import sortBy from "@javascript/sort-by/sort-by-key.js";
 
 describe("sortBy function", () => {
   test.each([
@@ -29,11 +29,12 @@ describe("sortBy function", () => {
       description: "should sort array of arrays by the second element",
     },
   ])("$description", ({ arr, fn, expected }) => {
-    // Arrange: Set up the input and expected result
-    // Act: Call the function with the input
+    // Arrange
+
+    // Act
     const result = sortBy(arr, fn);
 
-    // Assert: Verify the result matches the expected output
+    // Assert
     expect(result).toEqual(expected);
   });
 });

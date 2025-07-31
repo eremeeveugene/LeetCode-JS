@@ -5,6 +5,8 @@ function testIsEmpty(isEmpty) {
       [{}, true],
       [[null, false, 0], false],
     ])("returns %s for input %j", (obj, expected) => {
+      // Arrange
+
       // Act
       const result = isEmpty(obj);
 
@@ -14,4 +16,4 @@ function testIsEmpty(isEmpty) {
   });
 }
 
-module.exports = testIsEmpty;
+export default testIsEmpty;

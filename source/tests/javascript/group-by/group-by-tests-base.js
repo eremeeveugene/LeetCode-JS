@@ -37,6 +37,8 @@ function testGroupBy(groupBy) {
     test.each(testCases)(
       "should group the array correctly",
       ({ array, fn, expected }) => {
+        // Arrange
+
         // Act
         const result = groupBy.call(array, fn);
 
@@ -47,4 +49,4 @@ function testGroupBy(groupBy) {
   });
 }
 
-module.exports = testGroupBy;
+export default testGroupBy;

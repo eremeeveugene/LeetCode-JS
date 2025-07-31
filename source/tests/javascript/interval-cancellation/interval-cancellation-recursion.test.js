@@ -1,4 +1,4 @@
-const cancellable = require("../../leetcode/interval-cancellation/interval-cancellation-recursion");
-const testCancellable = require("./interval-cancellation-tests-base");
+import cancellable from "@javascript/interval-cancellation/interval-cancellation-recursion.js";
+import testCancellable from "./interval-cancellation-tests-base.js";
 
 testCancellable(cancellable);

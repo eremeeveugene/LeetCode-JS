@@ -1,4 +1,4 @@
-const isEmpty = require("../../leetcode/is-object-empty/is-object-empty-loop");
-const testIsEmpty = require("./is-object-empty-tests-base");
+import isEmpty from "@javascript/is-object-empty/is-object-empty-loop.js";
+import testIsEmpty from "./is-object-empty-tests-base.js";
 
 testIsEmpty(isEmpty);

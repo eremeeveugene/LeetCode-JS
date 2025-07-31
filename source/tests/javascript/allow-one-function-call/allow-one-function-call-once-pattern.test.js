@@ -1,31 +1,47 @@
-const once = require("../../../leetcode/javascript/allow-one-function-call/allow-one-function-call-once-pattern");
+import { jest } from "@jest/globals";
+import once from "@javascript/allow-one-function-call/allow-one-function-call-once-pattern.js";
 
 describe("once", () => {
-  test("should call the function only once", () => {
+  test("calls the original function only once", () => {
+    // Arrange
     const mockFn = jest.fn((x) => x + 1);
     const wrappedFn = once(mockFn);
 
-    expect(wrappedFn(1)).toBe(2); // First call should execute the function
-    expect(mockFn).toHaveBeenCalledTimes(1);
+    // Act
+    const firstCall = wrappedFn(1);
+    const secondCall = wrappedFn(2);
 
-    expect(wrappedFn(2)).toBeUndefined(); // Subsequent call should return undefined
-    expect(mockFn).toHaveBeenCalledTimes(1); // Function should not be called again
+    // Assert
+    expect(firstCall).toBe(2);
+    expect(secondCall).toBeUndefined();
+    expect(mockFn).toHaveBeenCalledTimes(1);
   });
 
-  test("should return undefined after first call", () => {
+  test("returns undefined for calls after the first one", () => {
+    // Arrange
     const mockFn = jest.fn(() => "called");
     const wrappedFn = once(mockFn);
 
+    // Act
     wrappedFn();
-    expect(wrappedFn()).toBeUndefined(); // Further calls return undefined
+    const result = wrappedFn();
+
+    // Assert
+    expect(result).toBeUndefined();
   });
 
-  test("should pass arguments correctly on the first call", () => {
+  test("passes all arguments to the original function on the first call", () => {
+    // Arrange
     const mockFn = jest.fn((a, b) => a + b);
     const wrappedFn = once(mockFn);
 
-    expect(wrappedFn(2, 3)).toBe(5);
-    expect(wrappedFn(4, 5)).toBeUndefined(); // Subsequent call should return undefined
-    expect(mockFn).toHaveBeenCalledWith(2, 3); // Ensure the original function received the correct arguments
+    // Act
+    const firstCall = wrappedFn(2, 3);
+    const secondCall = wrappedFn(4, 5);
+
+    // Assert
+    expect(firstCall).toBe(5);
+    expect(secondCall).toBeUndefined();
+    expect(mockFn).toHaveBeenCalledWith(2, 3);
   });
 });

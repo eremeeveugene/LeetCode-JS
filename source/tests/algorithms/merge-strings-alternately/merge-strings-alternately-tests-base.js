@@ -23,4 +23,4 @@ function testMergeAlternately(mergeAlternately) {
   });
 }
 
-module.exports = testMergeAlternately;
+export default testMergeAlternately;

@@ -1,4 +1,5 @@
-const timeLimit = require("../../leetcode/promise-time-limit/promise-time-limit-try-catch-finally");
+import { jest } from "@jest/globals";
+import timeLimit from "@javascript/promise-time-limit/promise-time-limit-try-catch-finally.js";
 
 describe("timeLimit", () => {
   jest.useFakeTimers();

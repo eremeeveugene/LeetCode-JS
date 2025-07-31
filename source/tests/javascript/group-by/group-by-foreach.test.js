@@ -1,4 +1,4 @@
-const groupBy = require("../../leetcode/group-by/group-by-foreach");
-const testGroupBy = require("./group-by-tests-base");
+import groupBy from "@javascript/group-by/group-by-foreach.js";
+import testGroupBy from "./group-by-tests-base.js";
 
 testGroupBy(groupBy);

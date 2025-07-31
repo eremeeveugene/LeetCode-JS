@@ -16,7 +16,7 @@ function testAddTwoPromises(addTwoPromises) {
         expectedResult: -2,
       },
     ])(
-      "should resolve with the correct sum for value1=$value1 and value2=$value2",
+      "returns $expectedResult when inputs are $value1 and $value2 with delays $promise1TimeOut/$promise2TimeOut",
       async ({
         value1,
         promise1TimeOut,
@@ -33,13 +33,13 @@ function testAddTwoPromises(addTwoPromises) {
         );
 
         // Act
-        const actualResult = await addTwoPromises(promise1, promise2);
+        const result = await addTwoPromises(promise1, promise2);
 
         // Assert
-        expect(actualResult).toBe(expectedResult);
+        expect(result).toBe(expectedResult);
       }
     );
   });
 }
 
-module.exports = testAddTwoPromises;
+export default testAddTwoPromises;

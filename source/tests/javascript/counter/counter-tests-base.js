@@ -20,4 +20,4 @@ function testCounterFunction(counterFunction) {
   });
 }
 
-module.exports = testCounterFunction;
+export default testCounterFunction;

@@ -1,3 +1,5 @@
+import { jest } from "@jest/globals";
+
 function testTimeoutCancellation(cancellable) {
   describe("cancellable", () => {
     beforeEach(() => {
@@ -67,4 +69,4 @@ function testTimeoutCancellation(cancellable) {
   });
 }
 
-module.exports = testTimeoutCancellation;
+export default testTimeoutCancellation;

@@ -1,4 +1,4 @@
-const argumentsLength = require("../../leetcode/return-length-of-arguments-passed/return-length-of-arguments-passed-variadic-function");
+import argumentsLength from "@javascript/return-length-of-arguments-passed/return-length-of-arguments-passed-variadic-function.js";
 
 describe("argumentsLength", () => {
   test("should return 0 when no arguments are passed", () => {

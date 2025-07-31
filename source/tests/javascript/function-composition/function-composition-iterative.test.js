@@ -1,4 +1,4 @@
-const compose = require("../../leetcode/function-composition/function-composition-iterative");
+import compose from "@javascript/function-composition/function-composition-iterative.js";
 
 describe("Function Composition", () => {
   test("Example 1: functions = [x => x + 1, x => x * x, x => 2 * x], x = 4", () => {

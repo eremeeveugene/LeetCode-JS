@@ -1,4 +1,4 @@
-const cancellable = require("../../leetcode/timeout-cancellation/timeout-cancellation-set-timeout");
-const testTimeoutCancellation = require("./timeout-cancellation-tests-base");
+import cancellable from "@javascript/timeout-cancellation/timeout-cancellation-set-timeout.js";
+import testTimeoutCancellation from "./timeout-cancellation-tests-base.js";
 
 testTimeoutCancellation(cancellable);

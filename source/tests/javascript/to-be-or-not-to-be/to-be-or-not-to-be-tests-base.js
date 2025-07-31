@@ -1,3 +1,5 @@
+import { jest } from "@jest/globals";
+
 function testExpectFunction(expectFunction) {
   describe("expectFunction", () => {
     // Tests for the 'toBe' method

@@ -1,25 +1,44 @@
-const createCounter = require("../../leetcode/counter-2/counter-2-factory-function");
+import createCounter from "@javascript/counter-2/counter-2-factory-function.js";
 
 describe("createCounter", () => {
-  test("should initialize counter with the provided value and increment correctly", () => {
+  test("increments the counter starting from the given value", () => {
+    // Arrange
     const counter = createCounter(5);
 
-    expect(counter.increment()).toBe(6); // Incrementing should return 6
-    expect(counter.increment()).toBe(7); // Incrementing should return 7
+    // Act
+    const first = counter.increment();
+    const second = counter.increment();
+
+    // Assert
+    expect(first).toBe(6);
+    expect(second).toBe(7);
   });
 
-  test("should decrement correctly", () => {
+  test("decrements the counter value", () => {
+    // Arrange
     const counter = createCounter(5);
 
-    expect(counter.decrement()).toBe(4); // Decrementing should return 4
-    expect(counter.decrement()).toBe(3); // Decrementing should return 3
+    // Act
+    const first = counter.decrement();
+    const second = counter.decrement();
+
+    // Assert
+    expect(first).toBe(4);
+    expect(second).toBe(3);
   });
 
-  test("should reset correctly", () => {
+  test("resets the counter to the initial value", () => {
+    // Arrange
     const counter = createCounter(10);
 
-    expect(counter.increment()).toBe(11); // Increment once
-    expect(counter.reset()).toBe(10); // Reset back to the initial value
-    expect(counter.decrement()).toBe(9); // Decrement after reset
+    // Act
+    const incremented = counter.increment();
+    const reset = counter.reset();
+    const decremented = counter.decrement();
+
+    // Assert
+    expect(incremented).toBe(11);
+    expect(reset).toBe(10);
+    expect(decremented).toBe(9);
   });
 });

@@ -1,4 +1,4 @@
-const memoize = require("../../leetcode/memoize/memoize-map");
+import memoize from "@javascript/memoize/memoize-map.js";
 
 describe("memoize", () => {
   test.each([

@@ -26,4 +26,4 @@ function testChunk(chunk) {
   });
 }
 
-module.exports = testChunk;
+export default testChunk;

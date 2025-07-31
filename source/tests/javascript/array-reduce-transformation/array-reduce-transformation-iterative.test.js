@@ -1,33 +1,63 @@
-const reduce = require("../../leetcode/array-reduce-transformation/array-reduce-transformation-iterative");
+import reduce from "@javascript/array-reduce-transformation/array-reduce-transformation-iterative.js";
 
 describe("reduce function", () => {
-  test("should sum all numbers in the array", () => {
+  test("sums all numbers in the array", () => {
+    // Arrange
     const nums = [1, 2, 3, 4];
     const sumFn = (a, b) => a + b;
-    expect(reduce(nums, sumFn, 0)).toBe(10);
+
+    // Act
+    const result = reduce(nums, sumFn, 0);
+
+    // Assert
+    expect(result).toBe(10);
   });
 
-  test("should multiply all numbers in the array", () => {
+  test("multiplies all numbers in the array", () => {
+    // Arrange
     const nums = [1, 2, 3, 4];
     const multiplyFn = (a, b) => a * b;
-    expect(reduce(nums, multiplyFn, 1)).toBe(24);
+
+    // Act
+    const result = reduce(nums, multiplyFn, 1);
+
+    // Assert
+    expect(result).toBe(24);
   });
 
-  test("should concatenate strings in an array", () => {
+  test("joins all strings in the array", () => {
+    // Arrange
     const strs = ["Hello", " ", "World"];
     const concatFn = (a, b) => a + b;
-    expect(reduce(strs, concatFn, "")).toBe("Hello World");
+
+    // Act
+    const result = reduce(strs, concatFn, "");
+
+    // Assert
+    expect(result).toBe("Hello World");
   });
 
-  test("should return the initial value if the array is empty", () => {
+  test("returns initial value for an empty array", () => {
+    // Arrange
     const nums = [];
     const sumFn = (a, b) => a + b;
-    expect(reduce(nums, sumFn, 100)).toBe(100);
+
+    // Act
+    const result = reduce(nums, sumFn, 100);
+
+    // Assert
+    expect(result).toBe(100);
   });
 
-  test("should handle subtraction correctly", () => {
+  test("applies subtraction step by step", () => {
+    // Arrange
     const nums = [10, 2, 1];
     const subtractFn = (a, b) => a - b;
-    expect(reduce(nums, subtractFn, 20)).toBe(7); // 20 - 10 - 2 - 1 = 7
+
+    // Act
+    const result = reduce(nums, subtractFn, 20);
+
+    // Assert
+    expect(result).toBe(7);
   });
 });

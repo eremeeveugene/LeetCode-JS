@@ -1,4 +1,4 @@
-const createHelloWorldFunction = require("../../leetcode/create-hello-world-function/create-hello-world-function-higher-order-function");
+import createHelloWorldFunction from "@javascript/create-hello-world-function/create-hello-world-function-higher-order-function.js";
 
 describe("createHelloWorldFunction", () => {
   test('should return "Hello World" when invoked', () => {

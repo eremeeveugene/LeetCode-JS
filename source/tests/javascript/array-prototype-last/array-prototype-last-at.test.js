@@ -1,4 +1,4 @@
-const last = require("../../leetcode/array-prototype-last/array-prototype-last-at");
-const testLast = require("./array-prototype-last-tests-base").default;
+import last from "@javascript/array-prototype-last/array-prototype-last-at.js";
+import testLast from "./array-prototype-last-tests-base.js";
 
 testLast(last);
