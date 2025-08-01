@@ -54,6 +54,7 @@ Below are the LeetCode problems sorted by category. Click on the category names 
   <p>
     
 - [28. Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/)
+- [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/description/)
 - [389. Find the Difference](https://leetcode.com/problems/find-the-difference/description/)
 - [1768. Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/description/)
 
