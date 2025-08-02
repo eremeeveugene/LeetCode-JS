@@ -7,6 +7,8 @@ class Calculator {
   }
 
   /**
+   * Time complexity - O(1)
+   * Space complexity - O(1)
    * @param {number} value
    * @return {Calculator}
    */
@@ -17,6 +19,8 @@ class Calculator {
   }
 
   /**
+   * Time complexity - O(1)
+   * Space complexity - O(1)
    * @param {number} value
    * @return {Calculator}
    */
@@ -27,6 +31,8 @@ class Calculator {
   }
 
   /**
+   * Time complexity - O(1)
+   * Space complexity - O(1)
    * @param {number} value
    * @return {Calculator}
    */
@@ -37,6 +43,8 @@ class Calculator {
   }
 
   /**
+   * Time complexity - O(1)
+   * Space complexity - O(1)
    * @param {number} value
    * @return {Calculator}
    */
@@ -51,6 +59,8 @@ class Calculator {
   }
 
   /**
+   * Time complexity - O(1)
+   * Space complexity - O(1)
    * @param {number} value
    * @return {Calculator}
    */
@@ -61,6 +71,8 @@ class Calculator {
   }
 
   /**
+   * Time complexity - O(1)
+   * Space complexity - O(1)
    * @return {number}
    */
   getResult() {
