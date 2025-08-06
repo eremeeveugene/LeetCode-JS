@@ -59,6 +59,7 @@ Below are the LeetCode problems sorted by category. Click on the category names 
 - [389. Find the Difference](https://leetcode.com/problems/find-the-difference/description/)
 - [832. Flipping an Image](https://leetcode.com/problems/flipping-an-image/description/)
 - [1768. Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/description/)
+- [1920. Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/description/)
 
   </p>
 </details>
