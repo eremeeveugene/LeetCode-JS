@@ -1,7 +1,7 @@
 /**
  * https://leetcode.com/problems/flipping-an-image/description/
  * Time complexity - O(n * m)
- * Space complexity - O(1)
+ * Space complexity - O(n * m)
  * @param {number[][]} image
  * @return {number[][]}
  */

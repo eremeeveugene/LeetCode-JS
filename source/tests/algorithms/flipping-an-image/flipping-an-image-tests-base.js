@@ -6,7 +6,7 @@ function testFlipAndInvertImage(flipAndInvertImage) {
         "[[1,1,0,0],[1,0,0,1],[0,1,1,1],[1,0,1,0]]",
         "[[1,1,0,0],[0,1,1,0],[0,0,0,1],[1,0,1,0]]",
       ],
-    ])("test", (imageJson, expectedResultJson) => {
+    ])("flips and inverts %s to get %s", (imageJson, expectedResultJson) => {
       // Arrange
       const image = JSON.parse(imageJson);
       const expectedResult = JSON.parse(expectedResultJson);
