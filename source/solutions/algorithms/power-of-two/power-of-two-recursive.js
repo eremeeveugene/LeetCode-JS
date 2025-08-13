@@ -1,9 +1,7 @@
-const MAX_POWER_OF_TWO = 1073741824;
-
 /**
  * https://leetcode.com/problems/power-of-two/description/
- * Time complexity - O(1)
- * Space complexity - O(1)
+ * Time complexity - O(log2 n)
+ * Space complexity - O(log2 n)
  * @param {number} n
  * @return {boolean}
  */
@@ -12,7 +10,11 @@ var isPowerOfTwo = function (n) {
     return false;
   }
 
-  return MAX_POWER_OF_TWO % n === 0;
+  if (n === 1) {
+    return true;
+  }
+
+  return isPowerOfTwo(n / 2);
 };
 
 export default isPowerOfTwo;
