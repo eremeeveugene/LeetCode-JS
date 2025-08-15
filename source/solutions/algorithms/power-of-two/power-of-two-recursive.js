@@ -1,7 +1,7 @@
 /**
  * https://leetcode.com/problems/power-of-two/description/
- * Time complexity - O(log2 n)
- * Space complexity - O(log2 n)
+ * Time complexity - O(log n)
+ * Space complexity - O(log n)
  * @param {number} n
  * @return {boolean}
  */

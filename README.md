@@ -58,6 +58,7 @@ Below are the LeetCode problems sorted by category. Click on the category names 
 - [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/description/)
 - [231. Power of Two](https://leetcode.com/problems/power-of-two/description/)
 - [326. Power of Three](https://leetcode.com/problems/power-of-three/)
+- [342. Power of Four](https://leetcode.com/problems/power-of-four/description/)
 - [389. Find the Difference](https://leetcode.com/problems/find-the-difference/description/)
 - [832. Flipping an Image](https://leetcode.com/problems/flipping-an-image/description/)
 - [1768. Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/description/)
