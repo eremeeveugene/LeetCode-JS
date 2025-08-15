@@ -1,7 +1,7 @@
 /**
  * https://leetcode.com/problems/power-of-three/description/
- * Time complexity - O(log3 n)
- * Space complexity - O(log3 n)
+ * Time complexity - O(log n)
+ * Space complexity - O(log n)
  * @param {number} n
  * @return {boolean}
  */
