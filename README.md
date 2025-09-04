@@ -65,6 +65,7 @@ Below are the LeetCode problems sorted by category. Click on the category names 
 - [1768. Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/description/)
 - [1920. Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/description/)
 - [3467. Transform Array by Parity](https://leetcode.com/problems/transform-array-by-parity/description/)
+- [3516. Find Closest Person](https://leetcode.com/problems/find-closest-person/description/)
 
   </p>
 </details>
