@@ -12,10 +12,6 @@ function testFindTheDifference(findTheDifference) {
         // Act
         const actualResult = findTheDifference(s, t);
 
-        console.log(
-          `For s: ${s}, t: ${t}, got: ${actualResult}, expected: ${expectedResult}`
-        );
-
         // Assert
         expect(actualResult).toBe(expectedResult);
       }

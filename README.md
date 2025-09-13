@@ -66,6 +66,7 @@ Below are the LeetCode problems sorted by category. Click on the category names 
 - [1920. Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/description/)
 - [3467. Transform Array by Parity](https://leetcode.com/problems/transform-array-by-parity/description/)
 - [3516. Find Closest Person](https://leetcode.com/problems/find-closest-person/description/)
+- [3541. Find Most Frequent Vowel and Consonant](https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/description/)
 
   </p>
 </details>
