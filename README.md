@@ -64,6 +64,7 @@ Below are the LeetCode problems sorted by category. Click on the category names 
 - [1323. Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/description/)
 - [1768. Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/description/)
 - [1920. Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/description/)
+- [1935. Maximum Number of Words You Can Type](https://leetcode.com/problems/maximum-number-of-words-you-can-type/description/)
 - [3467. Transform Array by Parity](https://leetcode.com/problems/transform-array-by-parity/description/)
 - [3516. Find Closest Person](https://leetcode.com/problems/find-closest-person/description/)
 - [3541. Find Most Frequent Vowel and Consonant](https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/description/)
